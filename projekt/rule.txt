@@ -1,0 +1,8 @@
+If lWeatherStation oMeter qTemperature > 20
+Then lIrrigation oSprinkler aOpen
+If lWeatherStation oMeter qTemperature < 20
+Then lIrrigation  oSprinkler aClose
+IF lWaterTank oTank qCapacity < 50
+Then lIrrigation  oSprinkler aClose
+IF lIrrigation oSprinkler qWaterFlow = 100
+Then lIrrigation oSprinkler aOpen

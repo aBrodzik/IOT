@@ -1,0 +1,46 @@
+#Opis zasobow
+#
+#
++ qWaterFlow,quantity,Z0    # input 0=-10 1023=+20
++ qAngle,quantity,Z1
++ qCapacity,quantity,Z2
++ qWaterClarity,quantity,Z3
++ qTemperature,quantity,Z4
++ qHumidity,quantity,Z5
++ sSprinkler,status,D0     # input 0=CLOSED, 1=OPEN
++ aSprinkler,action,D1     #output 0=OF, 1=ON;
+
+#opis akcji
+
+: 0, qWaterFlow, 0
+: 0, qAngle, 0
+: 0, qCapacity, 0
+: 0, qWaterClarity, 0
+: 0, qTemperature, 0
+: 0, qHumidity, 0
+: 0, sSprinkler, 0
+
+: 10000000, qWaterFlow, 100
+: 10000000, qAngle, 360
+: 10000000, qCapacity, 500
+: 10000000, qWaterClarity, 100
+: 10000000, qTemperature, 15
+: 10000000, qHumidity, 100
+
+: 30000000, qWaterFlow, 100
+: 30000000, qAngle, 360
+: 30000000, qCapacity, 500
+: 30000000, qWaterClarity, 100
+: 30000000, qTemperature, 25
+: 30000000, qHumidity, 100
+
+: 50000000, qWaterFlow, 100
+: 50000000, qAngle, 360
+: 50000000, qCapacity, 500
+: 50000000, qWaterClarity, 100
+: 50000000, qTemperature, 15
+: 50000000, qHumidity, 100
+
+  
+
+
